@@ -1,0 +1,54 @@
+.sidebar{
+    height: 100vh;
+}
+.sidebar .banner{
+    text-align: center;
+    height: 60px;
+    background-color: var(--secondary-color);
+    padding-top:1rem;
+  
+}
+.sidebar .banner h2{
+    font: normal 600 16px var(--primary-font) !important;
+    text-transform: uppercase;
+    color: black;
+    letter-spacing: 2px;
+}
+.sidebar ul{
+    list-style: none;
+    padding: 0rem;
+}
+.sidebar ul a{
+    text-decoration: none !important;
+}
+
+.sidebar ul li{
+    padding: 1rem .5rem;
+    /* border-bottom: 2px solid var(--secondary-color); */
+    color: var(--tertiary-color);
+    cursor: pointer;
+    transition: .4s ease;
+    font: normal 500 12px var(--primary-font);
+    box-sizing: border-box;
+
+}
+.sidebar ul li:hover{
+    color: var(--secondary-color) !important;
+}
+.sidebar ul .icon{
+    text-align: center !important;
+    padding: .3rem;
+}
+
+.sidebar ul .icon svg{
+    font-size: 25px !important;
+  
+}
+.sidebar ul li .text{
+    text-align: center;
+}
+
+.sidebar ul .active li{
+    border-right: 3px solid var(--secondary-color);
+    color: var(--secondary-color);
+}

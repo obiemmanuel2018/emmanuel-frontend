@@ -1,0 +1,136 @@
+.home .details{
+    text-align: start;
+
+    padding:10rem 5rem;
+}
+
+.home .details h6{
+    font: normal 500 14px var(--primary-font);
+    color: var(--tertiary-color);
+    
+}
+
+.home .details h3{
+    font: normal 600 40px var(--primary-font);
+    text-transform: capitalize;
+    color: var(--secondary-color);
+    text-shadow: 10.0px 10.0px 100.0px var(--secondary-color);
+}
+.home .details h4{
+    font: normal 550 18px var(--primary-font);
+    text-transform: capitalize !important;
+    color: var(--tertiary-color);
+}
+.home .details p{
+    font: normal 500 14px var(--primary-font);
+    text-transform: capitalize;
+    word-spacing: 2px;
+    color: var(--tertiary-color);
+    
+}
+.home .details .buttons{
+    padding-top: 2rem;
+}
+.home .details .buttons button {
+  margin-right: 1rem;
+  height: 40px;
+  padding: .35rem;
+  text-align: center;
+  text-transform: uppercase;
+
+  border-radius: 5px;
+}
+
+.home .details .buttons .work{
+    background: var(--secondary-color);
+    color: var(--tertiary-color);
+    border: 1px solid var(--secondary-color);
+    box-shadow: 10.0px 10.0px 100.0px var(--secondary-color);
+}
+
+.home .details .buttons .hire{
+    background: transparent;
+    color: var(--secondary-color);
+    border: 1px solid var(--secondary-color);
+    box-shadow: 10.0px 10.0px 100.0px var(--secondary-color);
+}
+.home .image img{
+    position: absolute;
+    z-index: -1;
+    
+}
+.home .image .cover{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    box-shadow:inset 30.0px 10.0px 90.0px var(--secondary-color);
+    
+    z-index: 2;
+  
+
+}
+.home .image {
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+  position: relative;
+  overflow: hidden;
+  margin-top: 3.5rem;
+  box-shadow: 10.0px 10.0px 100.0px var(--secondary-color);
+ 
+   
+}
+.home .image .burble-1{
+    position: absolute;
+    top: 10%;
+    left: 45px;
+    height: 80px;
+    width: 80px;
+    background-color: var(--primary-color);
+    z-index: 2;
+    border-radius: 50%;
+    font: normal 600 40px var(--primary-font);
+    color: var(--tertiary-color);
+    text-align: center;
+    padding-top: .5rem;
+    box-shadow:inset 6.0px 10.0px 10.0px var(--secondary-color);
+
+}
+
+.home .image .burble-2{
+    position: absolute;
+    top: 40%;
+    left: -10px;
+    height: 80px;
+    width: 80px;
+    background-color: var(--primary-color);
+    z-index: 2;
+    border-radius: 50%;
+    font: normal 600 40px var(--primary-font);
+    color: var(--tertiary-color);
+    box-shadow:inset 6.0px 10.0px 10.0px var(--secondary-color);
+    text-align: center;
+    padding-top: .5rem;
+
+}
+
+.home .image .burble-3{
+    position: absolute;
+    bottom: 12%;
+    left: 40px;
+    height: 80px;
+    width: 80px;
+    background-color: var(--primary-color);
+    z-index: 2;
+    border-radius: 50%;
+    font: normal 600 40px var(--primary-font);
+    color: var(--tertiary-color);
+    text-align: center;
+    padding-top: .5rem;
+    box-shadow:inset 6.0px 10.0px 10.0px var(--secondary-color);
+
+}
+
+

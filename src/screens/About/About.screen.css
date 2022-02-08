@@ -1,0 +1,111 @@
+.about{
+    padding: 1rem;
+}
+.about h1{
+    font: normal 500 20px var(--primary-font);
+    color: var(--secondary-color);
+}
+
+.about .line{
+    height: 2px;
+    width: 40px;
+    background-color: var(--secondary-color);
+    margin: 1rem 0rem;
+}
+
+.about p{
+    font: normal 500 14px var(--primary-font);
+    color: var(--tertiary-color);
+    text-transform: capitalize;
+}
+
+.about p img{
+    height: 15px;
+    margin-left: .4rem;
+    z-index: -1;
+}
+.about  .image{
+    position: relative;
+    margin-top: 1rem;
+    height: 400px;
+    width: 90%;
+   border-radius: 50%;
+  
+    overflow: hidden;
+    padding: .4rem;
+    
+}
+
+.about .image .cover{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    box-shadow:inset 10.0px 10.0px 20.0px var(--secondary-color);
+    
+    z-index: 2;
+  
+
+}
+.about .image img{
+    position: absolute;
+   
+    width: 100%;
+    height:auto;
+
+
+}
+
+.about .details{
+    padding:0rem 2rem;
+
+}
+.about .details h3{
+    font: normal 500 25px var(--primary-font);
+    color: var(--secondary-color);
+}
+.about .details blockquote{
+    font: normal 500 14px var(--primary-font);
+    color: var(--tertiary-color);
+    opacity: .8;
+    word-spacing: 2px;
+    margin-bottom: 2rem;
+}
+
+.about .details .info{
+    margin-bottom: 1rem;
+}
+.about .details .info .title{
+    display: inline-block;
+    font: normal 500 16px var(--primary-font);
+    color: var(--tertiary-color);
+    border-right: 2px solid var(--secondary-color);
+    padding-right:1rem;
+    width: 100px;
+    text-transform: capitalize;
+}
+
+.about .details .info .value{
+    display: inline-block;
+    font: normal 500 16px var(--primary-font);
+    color: var(--tertiary-color);
+    opacity: .8;
+    text-transform: capitalize;
+    padding-left:1rem;
+}
+
+.about .download-btn{
+    background: var(--secondary-color);
+    color: var(--tertiary-color);
+    height: 40px;
+    padding: .4rem;
+    font: normal 500 16px var(--primary-font);
+    border: 3px solid var(--secondary-color);
+    text-transform: uppercase;
+    margin-top: 2rem;
+    border-radius: 5px;
+}
+.skills{
+    margin-top: 4rem;
+}
