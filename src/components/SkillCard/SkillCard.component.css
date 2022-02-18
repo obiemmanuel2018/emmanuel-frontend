@@ -1,0 +1,8 @@
+.skillCard{
+    display: inline-block;
+    margin-right: 1rem;
+    border: 2px solid var(--secondary-color);
+    color: var(--tertiary-color);
+    padding: .5rem;
+    margin-bottom: 1rem;
+}

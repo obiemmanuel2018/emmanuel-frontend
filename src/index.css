@@ -19,7 +19,7 @@ body {
   --red:#D00000;
   --pink:#E5BBBB;
   --primary-font:'Poppins';
-  --primary-color:black;
-  --secondary-color:rgb(194, 52, 0);
-  --tertiary-color:#ccc;
+  --primary-color:white;
+  --secondary-color:rgb(155, 45, 6);
+  --tertiary-color:black;
 }

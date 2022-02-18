@@ -57,7 +57,8 @@
 .home .image img{
     position: absolute;
     z-index: -1;
-    
+    height: 500px;
+    border-radius: 50%;
 }
 .home .image .cover{
     position: absolute;
@@ -65,8 +66,8 @@
     right: 0;
     height: 100%;
     width: 100%;
-    box-shadow:inset 30.0px 10.0px 90.0px var(--secondary-color);
-    
+    box-shadow:inset 10.0px 10.0px 20.0px var(--secondary-color);
+    background-color: rgba(0, 0, 0, .2);
     z-index: 2;
   
 
@@ -78,7 +79,8 @@
   position: relative;
   overflow: hidden;
   margin-top: 3.5rem;
-  box-shadow: 10.0px 10.0px 100.0px var(--secondary-color);
+ 
+  padding: 0rem;
  
    
 }

@@ -1,0 +1,68 @@
+.projects{
+    padding: .5rem 0rem;
+}
+
+/* skeleton loader styling */
+.projects .skeleton-card{
+    height: auto;
+    background: transparent;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    border-radius: 10px;
+    
+ 
+}
+.projects .skeleton-card .image{
+    height: 300px;
+    border-radius: 30px;
+    overflow: hidden;
+}
+.projects .skeleton-card .details{
+    padding-right: 2rem;
+    padding-top:.5rem ;
+}
+.projects .skeleton-block{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+    height: 300px !important;
+    z-index: 4;
+    border-radius: 30px;
+    overflow: hidden;
+    
+}
+.project-paper {
+    width: 80% !important;
+
+    }
+    
+
+    .projects .no-project{
+        text-align: center;
+    
+    }
+    .projects .no-project h6{
+        font: normal 600 20px var(--primary-font);
+        text-transform: capitalize;
+        color: var(--secondary-color);
+    }
+    .projects .no-project p{
+        font: normal 500 16px var(--primary-font);
+        text-transform: capitalize;
+        margin-top:1rem;
+    }
+
+@media screen and (max-width:769px){
+   
+    .projects{
+        padding: .5rem 0rem !important;
+    }
+    .project-paper {
+        width: 100% !important;
+    
+        }
+    
+}
+

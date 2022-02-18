@@ -4,7 +4,7 @@ import { Navbar,Sidebar } from "..";
 const Layout = (props)=>{
 return (
    <div className="row">
-       <div className="col-1">
+       <div className="col-1" style={{position:'relative'}}>
            <Sidebar/>
        </div>
        <div className="col-11">

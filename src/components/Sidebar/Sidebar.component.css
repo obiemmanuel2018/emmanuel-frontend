@@ -1,5 +1,8 @@
 .sidebar{
     height: 100vh;
+    position: fixed;
+
+
 }
 .sidebar .banner{
     text-align: center;
@@ -11,7 +14,7 @@
 .sidebar .banner h2{
     font: normal 600 16px var(--primary-font) !important;
     text-transform: uppercase;
-    color: black;
+    color: var(--primary-color);
     letter-spacing: 2px;
 }
 .sidebar ul{

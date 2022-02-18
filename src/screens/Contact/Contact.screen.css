@@ -1,0 +1,26 @@
+.contact{
+    padding: 1rem 0rem;
+}
+.contact h1{
+    font: normal 500 20px var(--primary-font);
+    color: var(--secondary-color);
+}
+
+.contact .line{
+    height: 2px;
+    width: 40px;
+    background-color: var(--secondary-color);
+    margin: 1rem 0rem;
+}
+
+.contact p{
+    font: normal 500 14px var(--primary-font);
+    color: var(--tertiary-color);
+    text-transform: capitalize;
+}
+
+.contact p img{
+    height: 15px;
+    margin-left: .4rem;
+    z-index: -1;
+}

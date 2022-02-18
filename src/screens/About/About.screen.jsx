@@ -1,7 +1,47 @@
 import './About.screen.css';
 import FileDownloadOutlinedIcon from '@mui/icons-material/FileDownloadOutlined';
-
+import { useState } from 'react';
+import { SkillCard } from '../../components';
 const About = ()=>{
+  const [skills,setSkills] = useState([
+      {
+          "name":"HTML"
+      },
+      {
+          "name":"CSS"
+      },
+      {
+        "name":"Javascript"
+      },
+      {
+        "name":"Python"
+      },
+      {
+        "name":"PHP"
+     },
+      {
+        "name":"JQuery"
+      },
+      {
+        "name":"Bootstrap"
+      },
+       {
+        "name":"ReactJs"
+        },
+
+       {
+        "name":"Django"
+        },
+        {
+            "name":"Laravel"
+        },
+        {
+            "name":"Docker"
+        },
+        {
+            "name":"Github"
+        }
+  ]);
 return (
     <>
     <div className="about">
@@ -68,16 +108,29 @@ return (
             </div>
         </div>
     </div>
-    <div className="about skills">
+  <div className="row">
+      <div className="col-6">
+      <div className="about skills">
         <h1>
             My Skills
         </h1>
         <div className="line"></div>
         <p>A full stack developer based in <img src="./images/cameroon_flag.png" alt="" /></p>
-        <div className="row">
+        <div style={{paddingTop:"2rem"}} >
           
+
+            {skills.map((skill,index)=><SkillCard key={index} {...skill} />)}
+
+            
+            
+           
         </div>
     </div>
+      </div>
+      <div className="col-6">
+    
+      </div>
+  </div>
     </>
   
 )

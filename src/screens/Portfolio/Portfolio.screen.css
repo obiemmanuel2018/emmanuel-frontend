@@ -1,0 +1,66 @@
+.portfolio{
+    padding:1rem 0rem;
+    width:100%;
+    
+
+}
+.portfolio h1{
+    font: normal 500 20px var(--primary-font);
+    color: var(--secondary-color);
+}
+
+.portfolio .line{
+    height: 2px;
+    width: 40px;
+    background-color: var(--secondary-color);
+    margin: 1rem 0rem;
+}
+
+.portfolio p{
+    font: normal 500 14px var(--primary-font);
+    color: var(--tertiary-color);
+    text-transform: capitalize;
+}
+
+.portfolio p img{
+    height: 15px;
+    margin-left: .4rem;
+    z-index: -1;
+}
+.portfolio  .image{
+    position: relative;
+    margin-top: 1rem;
+    height: 400px;
+    width: 90%;
+   border-radius: 50%;
+  
+    overflow: hidden;
+    padding:0rem;
+    
+}
+
+
+
+.portfolio .MuiButtonBase-root{
+    color:var(--secondary-color) !important;
+    
+}
+ 
+.portfolio .Mui-selected{
+    color: var(--secondary-color) !important;
+    font-weight: 600 !important;
+    
+}
+.portfolio .MuiTabs-indicator{
+    background: var(--secondary-color) !important;
+}
+
+@media screen and (max-width: 769px) {
+    /* STYLES HERE */
+    .portfolio{
+        padding:0rem .2rem !important;
+      
+    }
+
+    
+}
